@@ -4,14 +4,12 @@
 
 body {
     background-color: antiquewhite;
+    font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
-img {
+.container img{
     width: auto;
     height: 500;
-    text-align: center;
+    
 }
 
-.index_title {
-    text-align: center;
-}
