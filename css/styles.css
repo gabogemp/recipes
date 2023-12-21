@@ -2,6 +2,13 @@
 @import url(./ham_bread/ham_bread.css);
 @import url(./pizza/pizza.css);
 
+/* aplicar siempre al inicio de un proyecto */
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: antiquewhite;
     font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
