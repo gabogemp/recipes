@@ -1,6 +1,7 @@
 @import url(./bread/bread.css);
 @import url(./ham_bread/ham_bread.css);
 @import url(./pizza/pizza.css);
+@import url(./index/index.css);
 
 /* aplicar siempre al inicio de un proyecto */
 * { 
