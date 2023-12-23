@@ -3,10 +3,11 @@
 @import url(./pizza/pizza.css);
 @import url(./index/index.css);
 
-/* aplicar siempre al inicio de un proyecto */
+/* aplicar siempre en los proyectos */
 * { 
     box-sizing: border-box;
-    padding: 0;
+    /* fija el padding y el margen para que no se muevan */
+    padding: 0; 
     margin: 0;
 }
 
@@ -16,7 +17,8 @@ body {
 }
 
 .container img{
-    width: auto;
+    /* así solo modificamos un valor y el otro se cambiara automagicamente */
+    width: auto; 
     height: 500;
     
 }

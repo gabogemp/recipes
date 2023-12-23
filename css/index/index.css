@@ -1,3 +1,12 @@
 .index_title {
     text-align: center;
 }
+
+.container1 {
+    text-align: center; /* Alinear texto al centro */
+  }
+
+.container1 > div {
+    display: inline-block; /* Convertir a elementos en línea */
+    margin: 0 auto; /* Margen automático para centrar */
+}
